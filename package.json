@@ -28,6 +28,7 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-eslint": "^3.0.1",
-    "rimraf": "^2.5.4"
+    "rimraf": "^2.5.4",
+    "redux-persist": "4.9.1"
   }
 }
