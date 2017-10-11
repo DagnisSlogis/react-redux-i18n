@@ -12,6 +12,7 @@ export {
 export { default as i18nReducer } from './reducer';
 
 export function syncTranslationWithStore(store) {
+  console.log("Translations:" ,store)
   I18n.setTranslationsGetter(() => {
     try {
       return store.getState().i18n.translations;
